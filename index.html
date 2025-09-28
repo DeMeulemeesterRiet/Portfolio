@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riet De Meulemeester — AI Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonts: Inter (UI) + Playfair Display (accent headings) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description"
+        content="Portfolio van Riet De Meulemeester — AI-studente met focus op machine learning, data en creatieve technologie.">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Ga naar hoofdinhoud</a>
+
+    <!-- HEADER / NAV -->
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a class="brand" href="#" aria-label="Homepage Riet De Meulemeester">
+                <span class="brand-mark" aria-hidden="true">R</span>
+                <span class="brand-text">Riet De Meulemeester</span>
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu openen">
+                <span class="material-icons-outlined" aria-hidden="true">menu</span>
+            </button>
+            <nav id="primary-nav" class="primary-nav" role="navigation" aria-label="Hoofdnavigatie">
+                <ul>
+                    <li><a href="#about">Over mij</a></li>
+                    <li><a href="#projects">Projecten</a></li>
+                    <li><a href="#skills">Vaardigheden</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home" aria-label="Intro sectie">
+        <div class="container hero-inner">
+            <div class="hero-copy">
+                <h1><span class="accent">AI-studente</span> met een passie voor mensgerichte technologie</h1>
+                <p>
+                    Ik ben Riet, ontwerp en bouw toegankelijke AI-oplossingen met focus op waarde, transparantie en
+                    creativiteit.
+                    Van data tot model en van prototype tot impact.
+                </p>
+                <div class="hero-ctas">
+                    <a class="btn btn-primary" href="#projects">Bekijk projecten</a>
+                    <a class="btn btn-ghost" href="#about">Leer me kennen</a>
+                </div>
+            </div>
+            <div class="hero-media">
+                <img src="me.jpg" alt="Portret van Riet De Meulemeester" loading="lazy" />
+            </div>
+        </div>
+    </section>
+
+    <main id="main" tabindex="-1">
+        <!-- ABOUT -->
+        <section id="about" class="section section-about">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Over mij</h2>
+                    <p>Gedreven door nieuwsgierigheid, gedragen door empathie en gebouwd op data:</p>
+                </header>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Wie ik ben</h3>
+                        <p>
+                            Hallo! Ik ben <strong>Riet De Meulemeester</strong>, AI-studente met een voorliefde voor
+                            duidelijke structuren,
+                            mooie interfaces en modellen die échte problemen oplossen. Ik werk graag iteratief en
+                            hecht veel belang aan samenwerking, privacy en een inclusieve gebruikerservaring.
+                        </p>
+                        <ul class="pill-list">
+                            <li>Empathisch</li>
+                            <li>Analytisch</li>
+                            <li>Creatief</li>
+                            <li>Teamspeler</li>
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <h3>Interesses</h3>
+                        <p>
+                            Derdejaars MCT-student met keuzetraject AI: Deep Learning, Reinforcement Learning, Generative AI en MLOps.
+                            Leergierig en sta open voor nieuwe ervaringen.
+                        </p>
+                        <ul class="pill-list">
+                            <!-- <li>AI</li> -->
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <h3>Tech stack</h3>
+                        <ul class="stack-list">
+                            <li>Python, Numpy, Pandas, scikit-learn, Matplotlib, TensorFlow</li>
+                            <li>FastAPI</li>
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>Git &amp; GitHub</li>
+                            <li>Figma</li>
+                            <li>Docker, Kubernetes, Azure</li>
+                            <li>C# &amp; .NET</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section section-projects">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Projecten</h2>
+                    <p>Recente werken. Mail gerust voor meer context of code.</p>
+                </header>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-media">
+                            <img src="project_one.png" alt="Poster van Project One" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <h3>Project One — De Tafelkampioen</h3>
+                            <p>
+                                Volledig uitgewerkt project om kinderen te helpen met het leren van de tafels van
+                                vermenigvuldiging.
+                                Resultaten gevisualiseerd in een interactief dashboard met aandacht voor veiligheid en privacy van de gebruikers.
+                            </p>
+                            <ul class="badge-list">
+                                <li>Raspberry Pi</li>
+                                <li>Python</li>
+                                <li>MySQL</li>
+                                <li>scikit-learn</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a class="btn btn-secondary" href="https://github.com/DeMeulemeesterRiet/Project-One" target="_blank" rel="noopener noreferrer"
+                                    aria-label="Bekijk code Project One op GitHub">Code</a>
+                                <a class="btn btn-link" href="https://www.instructables.com/Math-Master-De-Tafelkampioen-Howest-MCT/" target="_blank" rel="noopener noreferrer"
+                                    aria-label="Instructables link Project One">Instructables</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-media">
+                            <img src="speluitleg1-final.png" alt="Screenshot van Team Project" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <h3>Team Project — Escape game met hartslagmeter</h3>
+                            <p>
+                                Game, op basis van de hartslagen van de spelers, met doel álle spelers actief te
+                                laten deelnemen.
+                                Een spel, met focus op toegankelijkheid, waarin twee teams het tegen elkaar opnemen om het ruimteschip te redden en de
+                                controle over te nemen.
+                            </p>
+                            <ul class="badge-list">
+                                <li>Teamwork</li>
+                                <li>JavaScript</li>
+                                <li>Bluetooth</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a class="btn btn-secondary" href="https://github.com/DeMeulemeesterRiet/Team-Project" target="_blank" rel="noopener noreferrer"
+                                    aria-label="Bekijk code Team Project op GitHub">Code</a>
+                                <a class="btn btn-link" href="https://echo-voyager.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer" aria-label="Bekijk website Team Project">Website</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-media">
+                            <img src="project-3.jpg" alt="Industry Project" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <h3>Industry Project — Ai chatbot</h3>
+                            <p>
+                                Project in team: ontwikkeling van een event chatbot die klanten gericht voorstellen doet op basis van hun voorkeuren.
+                            </p>
+                            <ul class="badge-list">
+                                <li>Teamwork</li>
+                                <li>Ai chatbot</li>
+                                <li>Azure OpenAI</li>
+                                <li>CosmosDB</li>
+                                <li>.NET</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a class="btn btn-secondary"
+                                    href="https://github.com/SnaetWarre/Industry-Project-Xpo-Group" target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Bekijk code Industry Project op GitHub">Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section section-skills">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Vaardigheden</h2>
+                    <p>Een mix van technische skills, tools en soft skills die elk project vooruit helpen:</p>
+                </header>
+                <div class="skills-grid">
+                    <div class="skill-group">
+                        <h3>Machine Learning &amp; Python</h3>
+                        <ul class="pill-list">
+                            <li>Python</li>
+                            <li>Numpy</li>
+                            <li>Pandas</li>
+                            <li>scikit-learn</li>
+                            <li>Matplotlib</li>
+                            <li>FastAPI</li>
+                            <li>TensorFlow</li>
+                        </ul>
+                        <h3>Webontwikkeling</h3>
+                        <ul class="pill-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <h3>Back-end &amp; Databases</h3>
+                        <ul class="pill-list">
+                            <li>C#</li>
+                            <li>.NET</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>CosmosDB</li>
+                        </ul>
+                        <h3>DevOps &amp; Cloud</h3>
+                        <ul class="pill-list">
+                            <li>Docker</li>
+                            <li>Kubernetes</li>
+                            <li>Azure</li>
+                        </ul>
+                        <h3>Design &amp; Hardware</h3>
+                        <ul class="pill-list">
+                            <li>Figma</li>
+                            <li>Arduino</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Tools</h3>
+                        <ul class="skills-list">
+                            <li>Git &amp; GitHub</li>
+                            <li>Jupyter / VS Code</li>
+                            <li>Figma</li>
+                            <li>Notion</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Soft skills</h3>
+                        <ul class="skills-list">
+                            <li>Analytisch</li>
+                            <li>Communicatief</li>
+                            <li>Creatief probleemoplossen</li>
+                            <li>Empathisch</li>
+                            <li>Oog voor detail</li>
+                            <li>Samenwerken</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- CONTACT (geen formulier) -->
+    <footer id="contact" class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <div class="footer-top">
+                <h3>Contact</h3>
+                <p>
+                    Liever rechtstreeks contact? Stuur me een e-mail of connect op LinkedIn.
+                </p>
+                <div class="contact-links">
+                    <a class="contact-item" href="mailto:riet.de.meulemeester@student.howest.be"
+                        aria-label="E-mail naar Riet">
+                        <span class="material-icons-outlined" aria-hidden="true">mail</span>
+                        <span>E-mail</span>
+                    </a>
+                    <a class="contact-item" href="https://www.linkedin.com/in/riet-de-meulemeester" target="_blank"
+                        rel="noopener noreferrer" aria-label="LinkedIn profiel van Riet De Meulemeester">
+                        <span class="material-icons-outlined" aria-hidden="true">work</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a class="contact-item" href="https://github.com/DeMeulemeesterRiet" target="_blank"
+                        rel="noopener noreferrer" aria-label="GitHub profiel van Riet De Meulemeester">
+                        <span class="material-icons-outlined" aria-hidden="true">code</span>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+
+            <hr aria-hidden="true" />
+
+            <div class="footer-bottom">
+                <small>&copy; <span id="year"></span> Riet De Meulemeester — Alle rechten voorbehouden.</small>
+            </div>
+        </div>
+
+        <!-- Back to top -->
+        <button class="to-top" aria-label="Terug naar boven">
+            <span class="material-icons-outlined" aria-hidden="true">arrow_upward</span>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
